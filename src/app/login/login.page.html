@@ -1,0 +1,55 @@
+<ion-content class="ion-padding" swipeEnabled="false" color="light">
+
+  <ion-row>
+    <ion-col>
+      <div></div>
+    </ion-col>
+    <ion-col>
+      <div>
+        <img class="photoL animate__animated animate__fadeInUp" src="../../assets/lion.png">
+      </div>
+    </ion-col>
+    <ion-col>
+      <div></div>
+    </ion-col>
+  </ion-row>
+
+  <div>
+    <p class="titleT ion-text-center animate__animated animate__fadeInUp">systemApp</p>
+  </div>
+
+  <ion-card color="light">
+    <ion-list lines="none">
+      <form>
+
+
+        <ion-input position="floating" clearInput placeholder="Email" type="text" required minlength="5" maxlength="20">
+        </ion-input>
+        <br>
+        <ion-input position="floating" placeholder="Senha" type="password" required minlength="5" maxlength="20">
+        </ion-input>
+
+      </form>
+
+    </ion-list>
+
+    <br>
+    <ion-item lines="none">
+      <ion-checkbox color="greensapp" checked="false" slot="start"></ion-checkbox>
+      <ion-text class="textT">Manter logado</ion-text>
+    </ion-item>
+
+  </ion-card>
+
+
+  <ion-button class="btnT animate__animated animate__fadeInUp" expand="full" type="submit">
+    Sign In
+  </ion-button>
+
+  <br>
+
+  <ion-button class="textT animate__animated animate__fadeInUp" fill="clear" expand="full" routerLink="/signup">
+    Sign Up
+  </ion-button>
+
+</ion-content>

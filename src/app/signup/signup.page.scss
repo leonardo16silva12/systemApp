@@ -1,0 +1,80 @@
+.photoL {
+    max-width: 125px;
+    max-height: 125px;
+    width: auto;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.magic {
+    display: flex;
+    margin: auto;
+}
+
+ion-radio {
+    --color: #a2ff00;
+}
+
+ion-input {
+    display: flex;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+    color: #000;
+    --placeholder-font-style: 'Montserrat', sans-serif;
+}
+
+ion-card {
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 22px 48px 14px rgba(191,191,191,1);
+    -moz-box-shadow: 0px 22px 48px 14px rgba(191,191,191,1);
+    box-shadow: 0px 22px 48px 14px rgba(191,191,191,1);
+}
+
+
+.genT {
+    display: flex;
+    margin: auto;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+    color: #a2ff00;
+}
+
+.textT {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+    color: #000 !important;
+    
+}
+
+.btnT {
+    --background: #a2ff00;
+    --color: #000;
+    -webkit-box-shadow: 0px 22px 48px 14px rgba(191,191,191,1);
+    -moz-box-shadow: 0px 22px 48px 14px rgba(191,191,191,1);
+    box-shadow: 0px 22px 48px 14px rgba(191,191,191,1);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.btnT:hover {
+    --background: #919191;
+    --opacity: 0.5;
+
+
+}
+
+.titleT {
+        font-family: 'Dancing Script', cursive;
+        font-size: 50px;
+        color: #a2ff00;
+        font-weight: bolder;
+        pointer-events: all;
+}
+
